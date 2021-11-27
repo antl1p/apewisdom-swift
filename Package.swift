@@ -6,7 +6,7 @@ let package = Package(
     name: "ApeWisdom",
     platforms: [
         .iOS(.v15),
-        .macOS(.v12)
+        .macOS(.v11)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
