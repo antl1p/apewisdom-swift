@@ -1,3 +1,3 @@
 # ApeWisdom
 
-A description of this package.
+![SwiftBAT workflow](https://github.com/antl1p/ApeWisdomSwift/actions/workflows/bat.yml/badge.svg)
