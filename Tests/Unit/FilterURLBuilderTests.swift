@@ -11,6 +11,13 @@ class FilterURLBuilderTests: XCTestCase {
     func testFetchAll() {
         let filter: Filter = .all
         let url = FilterURLBuilder.build(filter: filter)
-        XCTAssertEqual(url?.absoluteString, "\(baseURL)/filter/all")
+        XCTAssertEqual(url?.absoluteString, "\(baseURL)/filter/\(filter.rawValue)")
+    }
+    
+    func testFetchWithPagination() {
+        let filter: Filter = .allStocks
+        let page = 3
+        let url = FilterURLBuilder.build(filter: filter, page: page)
+        XCTAssertEqual(url?.absoluteString, "\(baseURL)/filter/\(filter.rawValue)/page/\(page)")
     }
 }

@@ -4,11 +4,15 @@ import PackageDescription
 
 let package = Package(
     name: "ApeWisdom",
+    platforms: [
+        .iOS(.v15),
+        .macOS(.v12)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "ApeWisdom",
-            targets: ["ApeWisdom"]),
+            targets: ["ApeWisdom"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -22,8 +26,12 @@ let package = Package(
             dependencies: [],
             path: "Sources/ApeWisdom"),
         .testTarget(
-            name: "ApeWisdomTests",
+            name: "ApeWisdomUnitTests",
             dependencies: ["ApeWisdom"],
-            path: "Tests"),
+            path: "Tests/Unit"),
+        .testTarget(
+            name: "ApeWisdomIntegrationTests",
+            dependencies: ["ApeWisdom"],
+            path: "Tests/Integration")
     ]
 )
