@@ -19,6 +19,15 @@ Table of Contents
 **Filter by source**: Using a comprehensive enum, you can filter the results of your search based on the source of the information.
 **Paginate results**: If you need to comb through all the data, pagination is available.
 
+## Requirements
+
+| Platform | Minimum Swift Version | Installation | Status |
+| --- | --- | --- | --- |
+| iOS 13.0+ | 5.5 | [Swift Package Manager](#swift-package-manager), [Manual](#manually) | Fully Tested |
+| macOS 12.0+ | 5.5 | [Swift Package Manager](#swift-package-manager), [Manual](#manually) | Fully Tested |
+| tvOS 15.0+ | 5.5 | [Swift Package Manager](#swift-package-manager), [Manual](#manually) | Fully Tested |
+| watchOS 7.6+ | 5.5 | [Swift Package Manager](#swift-package-manager), [Manual](#manually) | Fully Tested |
+
 ## Installation
 
 ### Swift Package Manager
