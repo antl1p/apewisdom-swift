@@ -9,7 +9,7 @@ public struct Mention: Codable {
     public let last24HourRank: String?
     public let last24HourMentions: String?
     
-        .enum CodingKeys: String, CodingKey {
+        enum CodingKeys: String, CodingKey {
         case rank
         case ticker
         case name
