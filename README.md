@@ -1,6 +1,6 @@
 # ApeWisdom Swift SDK
 
-![Build workflow](https://github.com/antl1p/apewisdom-swift/actions/workflows/Build.yml/badge.svg) ![UnitTest workflow](https://github.com/antl1p/apewisdom-swift/actions/workflows/UnitTest.yml/badge.svg) ![IntegrationTest workflow](https://github.com/antl1p/apewisdom-swift/actions/workflows/IntegrationTest.yml/badge.svg) [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
+![UnitTest workflow](https://github.com/antl1p/apewisdom-swift/actions/workflows/UnitTest.yml/badge.svg) ![IntegrationTest workflow](https://github.com/antl1p/apewisdom-swift/actions/workflows/IntegrationTest.yml/badge.svg) [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
 
 The ApeWisdom Swift SDK makes it quick and easy to build any MacOS based application requiring
 sentiment analysis on CryptoCurrencies and Stocks from various subreddits and forums.
