@@ -1,15 +1,15 @@
 import Foundation
 
 public struct Mention: Codable {
-    let rank: Int
-    let ticker: String
-    let name: String
-    let mentions: String?
-    let upvotes: String?
-    let last24HourRank: String?
-    let last24HourMentions: String?
+    public let rank: Int
+    public let ticker: String
+    public let name: String
+    public let mentions: String?
+    public let upvotes: String?
+    public let last24HourRank: String?
+    public let last24HourMentions: String?
     
-    enum CodingKeys: String, CodingKey {
+        .enum CodingKeys: String, CodingKey {
         case rank
         case ticker
         case name

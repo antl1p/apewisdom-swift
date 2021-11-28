@@ -1,10 +1,10 @@
 import Foundation
 
 public struct MentionResponse: Codable {
-    let count: Int
-    let pages: Int
-    let currentPage: Int
-    let results: [Mention]
+    public let count: Int
+    public let pages: Int
+    public let currentPage: Int
+    public let results: [Mention]
     
     enum CodingKeys: String, CodingKey {
         case count
